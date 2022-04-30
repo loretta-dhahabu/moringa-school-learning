@@ -13,27 +13,9 @@ button {
     cursor: pointer;
     border-radius: 6px;
     border-style: none;
+   
+   }
 
-
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-li {
-    float: right;
-  }
-  
-  li a {
-    display: block;
-    padding: 8px;
-    background-color: none;
-    color: rgba(0, 0, 0, 0.719);
-    cursor: default;
-
-  }
   .moringa{
       display: inline;
       padding: 10px;
@@ -61,15 +43,16 @@ li {
 
   }
   .mentors{
-      text-align: justify;
+      text-align: center;
       display: block;
-      align-items:inherit;
-      column-count: 4;
       column-gap: normal;
-      margin-top: 70px;
+      margin-top: 10px;
       margin-left: auto;
+      text-indent:5px;
       
+        
   }
+
   h2{
       color: hotpink;
   }
@@ -108,4 +91,28 @@ li {
   .content{
       padding: 10px;
       display: inline;
+  }
+  .column{
+      float: left;
+      padding: 5px;
+      display: block;
+      column-gap: normal;
+      flex: 33.3%;
+  }
+  .row::after{
+      content: "";
+      clear: both;
+      display: block;
+
+  }
+  span{
+      display: inline-block;
+      margin-top: 2px;
+      padding: 5px;
+  }
+  p2{
+      text-indent: inherit;
+      text-align: left;
+      padding: 5px;
+      padding-top: 5px;
   }
