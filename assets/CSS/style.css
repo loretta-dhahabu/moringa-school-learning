@@ -36,34 +36,76 @@ li {
   }
   .moringa{
       display: inline;
-      color: hotpink black;
       padding: 10px;
       font-size: 16px;
       float: left;
 
   }
+  .moringa::first-word{
+      color: hotpink;
+  }
   .image{
-      min-width: 50px;
-      min-height: 40px;
-      display: inline-block; 
+      width: 300px;
+      height: 206px;
+      display: inline;
+      transition: .4s ease-in-out;
+      padding: 10px;
+      padding-inline-end: 10px;
+
+
        
   }
-  .image:hover{
+  .image:hover .image{
+      opacity: 0.4;
           cursor: zoom-in;
 
   }
   .mentors{
       text-align: justify;
       display: block;
+      align-items:inherit;
+      column-count: 4;
+      column-gap: normal;
+      margin-top: 70px;
+      margin-left: auto;
       
   }
   h2{
       color: hotpink;
   }
   footer{
-      background-color: grey;
+      background-color: rgb(116, 103, 103); fill-opacity: inherit;
       align-items: center;
       padding: 20px;
       display:flex center;
       text-align: center;
+    
+  }
+  .mentors:li{
+      display: block;
+      margin-block-end: 5px;
+      margin-block-start: 5px;
+      margin-top: 30px;
+      position: absolute;
+      
+  }
+  h4{margin-top: 30px;
+     background-color: rgb(116, 103, 103) 20px;fill-opacity: inherit;padding: 5px;
+     overflow: visible;
+     display: inline-flex;
+     padding-left: 20px;
+     overflow-wrap: normal;
+     background-size: 10px;
+
+
+  }
+  .fa fa-heart{
+      width:5px;height: 20px
+  }
+  .margin{
+      padding: 30px;
+  }
+  .content{
+      padding: 10px;
+      display: inline;
   }
