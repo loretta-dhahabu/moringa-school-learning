@@ -16,6 +16,7 @@ button {
    
    }
 
+
   .moringa{
       display: inline;
       padding: 10px;
@@ -36,10 +37,10 @@ button {
     }
     .bottom-left{
        position: absolute;
-       bottom: 0px;
-       left: 40px;
+       bottom: 1px;
+       left: 30px;
        color: white;
-       font-size: small;
+       font-size: x-small;
     }
     
   
@@ -86,7 +87,7 @@ button {
       width:5px;height: 20px
   }
   .margin{
-      padding: 30px;
+      padding: 10px;
   }
   .content{
       padding: 10px;
