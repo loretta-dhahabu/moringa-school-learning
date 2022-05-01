@@ -36,32 +36,12 @@ button {
     }
     .bottom-left{
        position: absolute;
-       bottom: 1px;
+       bottom: 0px;
        left: 40px;
        color: white;
        font-size: small;
     }
-    .bottom-left2{
-        position: absolute;
-        bottom: 1px;
-        left: 40px;
-        color: white;
-        font-size: small;
-        
-    }
-    .bottom-right{
-        position: absolute;
-        bottom: 1px;
-        right: 30px;
-        color: black;
-    }
-    .top-left{
-        position: absolute;
-        top: 1px;
-        left: 10px;
-        color: black;
-        font-size: small;
-    }
+    
   
   .mentors{
       text-align: center;
