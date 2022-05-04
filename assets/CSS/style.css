@@ -130,6 +130,8 @@ button {
       background-color: none;
       padding: 8px;
       text-align: center;
+      text-decoration: none;
+      text-decoration-style: none;
  }
   li a:hover{
       background-color: blueviolet;
