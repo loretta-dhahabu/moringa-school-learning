@@ -3,6 +3,35 @@ body{
     font-family: Nunito;
 
 }
+.container{
+    margin: 0px 0px 0px 0px;
+}
+.nav-bar{
+    display: block;
+    margin-bottom: 400px;
+}
+.nav_bar ul{
+    display: inline-block;
+    float: right;
+    list-style-type: none;
+
+}
+.nav-bar li{
+    list-style-type: none;
+      text-decoration: none;
+      margin-bottom: 30px;
+      float: right;  
+      display: inline;  
+      margin-left: 30px;
+}
+   a{
+    display: block;
+    padding: 8px;
+      background-color: none;
+      text-decoration: none;
+      
+}
+
 button {
     background-color: #EC4067;
     color: white;
@@ -17,14 +46,16 @@ button {
    }
 
   .moringa{
-      display: inline;
-      padding: 10px;
-      font-size: 16px;
-      float: left;
-
+      margin-top: 200px;
+      margin-bottom: 50px;
   }
-  .moringa::first-word{
-      color: hotpink;
+  .stories{
+      margin-bottom: 50px;
+  }
+  #p-2{
+      margin-left:30px;
+      padding-left: 20px;
+      width: 550px;
   }
   .image{
       width: 300px;
@@ -118,33 +149,14 @@ button {
       padding: 5px;
       padding-top: 5px;
   }
-  ul{
-      list-style-type: none;
-      padding: 5px 6px;
-      margin: 3px;
-      
-      
-  }
-  li a{
-      display: block;
-      background-color: none;
-      padding: 8px;
-      text-align: center;
-      text-decoration: none;
-      text-decoration-style: none;
- }
+
+
   li a:hover{
       background-color: blueviolet;
   }
   button:hover{
       background-color: black;
   }
-  li{
-      float: right;
-  }
-  .nav_bar li a{
-    float: right;
-    padding: 5px;
-  }
+  
   
 
